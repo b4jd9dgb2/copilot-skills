@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.botframework.com/schemas/skills/v2.1/skill-manifest.json",
+    "name": "WeatherSkill",
+    "description": "A skill to get weather forecasts for a given city.",
+    "publisherName": "YourPublisherName",
+    "version": "1.0",
+    "iconUrl": "https://example.com/icon.png",
+    "endpoint": {
+        "url": "https://example.com/api/messages",
+        "msAppId": "58a463aa-80d0-4495-83a8-3688479b32d3"
+    },
+    "actions": [
+        {
+            "id": "GetWeatherForecast",
+            "definition": {
+                "description": "Get the weather forecast for a specified city.",
+                "slots": [
+                    {
+                        "name": "city",
+                        "type": "string",
+                        "description": "The name of the city to get the weather forecast for."
+                    }
+                ]
+            }
+        }
+    ]
+}
