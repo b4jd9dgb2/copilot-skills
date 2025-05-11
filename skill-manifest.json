@@ -7,7 +7,7 @@
     "iconUrl": "https://example.com/icon.png",
     "endpoint": {
         "url": "https://raw.githubusercontent.com/b4jd9dgb2/copilot-skills/refs/heads/main/skill-manifest.json",
-        "msAppId": "58a463aa-80d0-4495-83a8-3688479b32d3"
+        "msAppId": "58a463aa-80d0-4495-83d32d3"
     },
     "actions": [
         {
